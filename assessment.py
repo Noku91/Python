@@ -1,15 +1,10 @@
-angles = []
+runway_number = []
 
-current_angle = int(input('Enter your current angle: '))
-while current_angle <= 359:
-    angles.append(current_angle)
+while True:
+    try:
+        angle = input('Enter your current angle: ')
 
-    current_angle = int(input('Enter your current angle: '))
+if angle.lower()
 
-for angle in current_angles:
-    if angle <= 359:
-        print('final')
-    else:
-        print('ERROR: INVALID ANGLE')   
 
 
