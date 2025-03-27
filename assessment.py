@@ -8,6 +8,12 @@ def get_runway(angle):
 runway_numbers = []
 while true:
     angle_input = input("Enter your current angle: ")
+    if angle_input.lower() == "final":
+        break
+    try:
+        angle = int(angle_input)
+        if 0 <= angle <= 359:
+            
 
 
 
