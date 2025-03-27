@@ -1,15 +1,17 @@
-runway_number = []
+def get_runway(angle):
+    runway= (angle + 4) //10
+    if runway == 36:
+    return 0
+        return 0
+    return runway
 
-while True:
-    try:
-        angle_current = input('Enter your current angle: ')
+runway_numbers = []
+while true:
+    angle_input = input("Enter your current angle: ")
 
-if angle_current.lower() == 'final':
-    break
-runway_number.append(angle)
 
-expect ValueError:
-print('')
+
+
 
 
 
