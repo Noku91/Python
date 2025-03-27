@@ -19,3 +19,6 @@ while True:
             print("ERROR: INVALID ERROR")
     except ValueError:
         print("ERROR: INVALID ERROR")
+
+for runway in runway_numbers:
+    print(runway)
